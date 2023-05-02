@@ -1,13 +1,11 @@
 
 .conteudo {
     display: flex;
-    margin: 5%;
-
-    justify-content: center;
+    flex-direction: column;
 }
 
 
-div img {
+/* div img {
     max-width: 100%;
     display: flex;
     margin: 0 auto ;
@@ -15,34 +13,100 @@ div img {
     align-items: center;
     width: 330px;
     height: 180px;
-}
+} */
 
+.games video{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+    top: -150px;
+
+
+}
 
 div{
-    width: 410px;
-    border: 1px solid #201f20;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 16px;
-    margin: 8px;
+    width: 100%;
+    height: 80vh;
+    /* border: 1px solid #fff; */
+    overflow: hidden;
 }
-div:hover{
-    border: 1px solid #ec145c;
+/* div:hover{
+    border: 1px solid #ffffff;
     color: white;
-}
-div h2:hover{
+} */
+/* div h2:hover{
     color: #fff;
     transition: 0.6s;
+} */
+
+.games h2{
+    color: #ffffff;
+    font-family:  "Gotham HTF", sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 10%;
+    left: -35%;
+    font-size: 140px;
 }
-div h2{
-    color: #ec145c;
-    font-family:  "Gotham HTF";
-    font-size: 34px;
-    text-align: center;
+.games p{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family:  "Gotham HTF", sans-serif;
+    text-align: left;
+    font-size: 24px;
+    top: 8%;
+    left: 2%;
+    margin-right: 52%;
+}
+.mobile{
+    background: url(../img/imgmobile.jpg);
+    background-size: cover;
+}
+
+.mobile h2{
+    color: #ffffff;
+    font-family:  "Gotham HTF", sans-serif;
+    font-size: 140px;
 
 }
-div figure figcaption{
-    color: rgb(0, 0, 0);
-    font-family:  "Gotham HTF";
+
+.mobile p{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family:  "Gotham HTF", sans-serif;
     text-align: center;
-    font-size: 16px
+    font-size: 24px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4%;
+
+}
+
+.tech{
+    background: url(../img/fundocomp.jpg);
+    background-size: cover;
+    height: 100vh;
+    z-index: 1;
+}
+
+.tech h2{
+    color: #ffffff;
+    font-family:  "Gotham HTF", sans-serif;
+    font-size: 140px;
+    position: relative;
+    left: 26%;
+
+}
+
+.tech p{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family:  "Gotham HTF", sans-serif;
+    text-align: right;
+    font-size: 24px;
+    top: 8%;
+    left: 50%;
+    margin-right: 52%;
 }

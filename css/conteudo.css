@@ -21,7 +21,7 @@
     width: 100%;
     min-height: 100vh;
     z-index: -1;
-    top: -150px;
+    top: -140px;
 
 
 }
@@ -46,29 +46,31 @@ div{
     font-family:  "Gotham HTF", sans-serif;
     font-size: 18px;
     position: relative;
-    top: 10%;
-    left: -35%;
-    font-size: 140px;
+    top: 8%;
+    left: -36%;
+    font-size: 90px;
 }
 .games p{
     position: relative;
     color: rgb(255, 255, 255);
     font-family:  "Gotham HTF", sans-serif;
     text-align: left;
-    font-size: 24px;
+    font-size: 20px;
     top: 8%;
     left: 2%;
     margin-right: 52%;
 }
 .mobile{
-    background: url(../img/imgmobile.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.500)), url(../img/imgmobile.jpg);
     background-size: cover;
+    height: 100vh;
 }
 
 .mobile h2{
     color: #ffffff;
     font-family:  "Gotham HTF", sans-serif;
     font-size: 140px;
+    filter: brightness();
 
 }
 
@@ -85,10 +87,9 @@ div{
 }
 
 .tech{
-    background: url(../img/fundocomp.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.500)), url(../img/fundocomp.jpg);
     background-size: cover;
     height: 100vh;
-    z-index: 1;
 }
 
 .tech h2{
@@ -105,8 +106,8 @@ div{
     color: rgb(255, 255, 255);
     font-family:  "Gotham HTF", sans-serif;
     text-align: right;
-    font-size: 24px;
-    top: 8%;
+    font-size: 20px;
+    top: 6%;
     left: 50%;
     margin-right: 52%;
 }
